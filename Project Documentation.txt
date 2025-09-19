@@ -1,0 +1,54 @@
+Project Documentation
+
+Overview:
+The CORD-19 Data Explorer is a comprehensive Streamlit application that allows users to explore and analyze metadata from COVID-19 research papers. It implements all the requirements from the step-by-step tasks, providing interactive visualizations and insights into publication trends.
+
+Implementation Details:
+
+Data Loading: The app loads sample data that mimics the structure of the actual CORD-19 metadata.csv file.
+
+Data Cleaning:
+
+Handles missing values in author fields
+Converts publish time to datetime format
+Extracts publication year for time based analysis
+Creates new columns like abstract word count
+
+Data Analysis:
+
+Counts publications by year
+Identifies top journals
+Analyzes word frequency in titles
+Calculates basic statistics
+
+Visualization:
+
+Bar chart of publications over time
+Horizontal bar chart of top journal
+Word frequency chart
+Abstract word count distribution
+Word cloud of paper titles
+
+Streamlit App:
+
+Interactive filters for year range and journal selection
+Metric cards showing key statistics
+Data sample display
+Comprehensive documentation section
+
+
+Reflection
+Challenges Faced:
+
+Data Simulation: Creating realistic sample data that represents the actual CORD-19 dataset structure
+Visualization Clarity: Ensuring charts are informative and easy to understand
+Layout Design: Creating an intuitive user interface with proper section organization
+Performance Considerations: Designing the app to handle potential large datasets efficiently
+
+
+Solutions Implemented:
+
+Used a structured approach to create representative sample data
+Applied consistent styling and clear labels to all visualizations
+Organized the app into logical sections with clear headers
+Implemented filtering to handle data subsets efficiently
